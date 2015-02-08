@@ -189,7 +189,7 @@ h2, h1 {
 *
 */
 
-header, #twoway {
+header, .twoway {
 	margin: 0 $column;
 }
 
@@ -271,7 +271,7 @@ h3 {
 		font-size: #{($font-size) / $em}em;
 	}
 
-	#twoway .wrapper {
+	.twoway .wrapper {
 		float: left;
 		width: 50%;
 	}
@@ -297,7 +297,7 @@ h3 {
 		font-size: #{($font-size) / $em}em;
 	}
 
-	header, #twoway {
+	header, .twoway {
 		margin: 0 $column*3;
 	}
 
@@ -323,7 +323,7 @@ h3 {
 		font-size: #{($font-size) / $em}em;
 	}
 
-	header, #twoway {
+	header, .twoway {
 		margin: 0 $column*5;
 	}
 
@@ -354,7 +354,7 @@ h3 {
 /* @media screen and (min-width: 1872px) */
 @media screen and (min-width: 117em) {
 
-	header, #twoway {
+	header, .twoway {
 		margin: 0 $column*1;
 	}
 
@@ -363,11 +363,11 @@ h3 {
 		margin-left: 25%;
 	}
 
-	#twoway .wrapper {
+	.twoway .wrapper {
 		width: 25%;
 	}
 
-	#twoway .wrapper:first-child {
+	.twoway .wrapper:first-child {
 		margin-left: 25%;
 	}
 

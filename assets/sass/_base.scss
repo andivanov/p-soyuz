@@ -1,3 +1,32 @@
-h1 {
-	color: red;
-}
+ h1 {
+ 	text-align: center;
+ 	margin: 40px 0;
+ 	&:after {
+ 		content: '';
+ 		background-image: url(../img/rocket.svg);
+ 		background-repeat: no-repeat;
+ 		background-position: top center;
+ 		background-size: cover;
+ 		width: 125px;
+ 		height: 125px;
+ 		display: block;
+ 		margin: 40px auto 0;
+ 		@media screen and (min-width: 40em) {
+ 			width: 150px;
+ 			height: 150px;
+ 		}
+ 		@media screen and (min-width: 55em) {
+ 			width: 175px;
+ 			height: 175px;
+ 		}
+ 		@media screen and (min-width: 70em) {
+ 			width: 200px;
+ 			height: 200px;
+ 		}
+ 	}
+ }
+
+ p {
+ 	margin-top: 30%;
+ 	text-align: center;
+ }
