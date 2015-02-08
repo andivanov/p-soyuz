@@ -337,10 +337,10 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
+.stardust {
   background-image: url("../img/stardust/stardust.png"); }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    body {
+    .stardust {
       background-image: url("../img/stardust/stardust_@2X.png"); } }
 
 h1 {
@@ -376,4 +376,5 @@ p {
 
 a {
   color: #f7f7f7;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }

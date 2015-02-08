@@ -3,7 +3,7 @@ body {
 	@include box-sizing(border-box);
 }
 
-body {
+.stardust {
 	background-image: url('../img/stardust/stardust.png');
 	@media (-webkit-min-device-pixel-ratio: 2), 
 	(min-resolution: 192dpi) { 
@@ -50,4 +50,5 @@ h1 {
  	@extend %copy;
  	color: #f7f7f7;
  	text-decoration: none;
+ 	text-transform: uppercase;
  }
