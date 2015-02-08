@@ -1,6 +1,21 @@
- h1 {
+html,
+body {
+	@include box-sizing(border-box);
+}
+
+body {
+	background-image: url('../img/stardust/stardust.png');
+	@media (-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 192dpi) { 
+    	background-image: url('../img/stardust/stardust_@2X.png');
+	}
+}
+
+h1 {
+	color: #f7f7f7;
  	text-align: center;
- 	margin: 40px 0;
+ 	padding: 16% 0 0 0;
+ 	@extend %hero-header;
  	&:after {
  		content: '';
  		background-image: url(../img/rocket.svg);
@@ -29,4 +44,10 @@
  p {
  	margin-top: 30%;
  	text-align: center;
+ }
+
+ a {
+ 	@extend %copy;
+ 	color: #f7f7f7;
+ 	text-decoration: none;
  }
