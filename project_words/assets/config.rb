@@ -2,12 +2,12 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "project_words/assets/css"
-sass_dir = "project_words/assets/sass"
-images_dir = "project_words/assets/img"
-javascripts_dir = "project_words/assets/js"
-fonts_dir = "project_words/assets/fonts"
+http_path = "../"
+css_dir = "css"
+sass_dir = "sass"
+images_dir = "img"
+javascripts_dir = "js"
+fonts_dir = "fonts"
 
 output_style = :nested
 
