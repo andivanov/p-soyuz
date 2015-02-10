@@ -1,9 +1,14 @@
 html, body {
 	text-align: center;
 }
+
 article {
 	overflow: hidden;
 	p {
 		text-align: left;
 	}	
+}
+
+img {
+	max-width: 100%;
 }

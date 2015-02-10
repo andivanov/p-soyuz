@@ -319,3 +319,6 @@ article {
   overflow: hidden; }
   article p {
     text-align: left; }
+
+img {
+  max-width: 100%; }
